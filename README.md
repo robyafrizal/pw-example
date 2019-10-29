@@ -14,7 +14,7 @@ You can visit me on
 
 ## SCHREENSHOTS
 
-![Home](image/home.png)
-![About](image/about.png)
-![Contact](image/contact.png)
-![Service](image/service.png)
+![Home](images/home.png)
+![About](images/about.png)
+![Contact](images/contact.png)
+![Service](images/service.png)
