@@ -17,4 +17,4 @@ You can visit me on
 ![Home](image/home.png)
 ![About](image/about.png)
 ![Contact](image/contact.png)
-![Service](service.png)
+![Service](image/service.png)
