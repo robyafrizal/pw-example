@@ -34,14 +34,14 @@ nav {
 }
 
 main {
-  height: 510px;
-  max-height: 510px;
+  height: 100%;
+  max-height: 100%;
 }
 
 .selfie img {
   width: 20%;
   position: relative;
-  left: 35%;
+  left: 37%;
   margin: 3%;
   border-radius: 50%;
 }
@@ -52,8 +52,8 @@ main {
 .tombolService {
   position: relative;
   width: 15%;
-  height: 35%;
-  left: 40%;
+  height: 40%;
+  left: 42%;
   background: black;
   border-radius: 45%;
 }
@@ -84,8 +84,9 @@ footer .footer {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container1 {
-  padding: 2px 16px;
+.card1 .card2 {
+  justify-content: center;
+  border: 1px solid black;
 }
 
 .tentang h3 {
