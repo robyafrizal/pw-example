@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: burlywood;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.search-area {
+  width: 205px;
+  height: 40px;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  float: left;
+  padding-left: 15px;
+  -webkit-box-shadow: 19px 21px 53px rgba(46, 46, 46, 0.66);
+          box-shadow: 19px 21px 53px rgba(46, 46, 46, 0.66);
+}
+
+.search-btn {
+  width: 100px;
+  height: 42px;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #08596a;
+  margin-left: -70px;
+  margin-top: 0.2px;
+  -webkit-box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);
+          box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);
+}
+
+.search-btn:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #ea0227;
+  -webkit-box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);
+          box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  color: #08596a;
+  margin-left: 46px;
+  padding: 0px 38px;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #08596a;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 140px;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  color: #08596a;
+  font-family: "Raleway", sans-serif;
+  padding: 15px 15px;
+  font-weight: 400;
+}
+
+.nav ul:hover {
+  border-bottom: 3px solid red;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.logo h1 {
+  color: #fff;
+  font-family: "Fredericka the Great", cursive;
+}
+
+.header {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header h1 {
+  color: #08596a;
+  text-align: left;
+  font-family: "Noto Serif JP", sans-serif;
+  font-size: 50px;
+}
+
+.header span {
+  color: #08596a;
+}
+
+.tagline {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  top: 70%;
+  left: 73%;
+}
+
+.tagline p {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #08596a;
+}
+
+.down {
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.down img {
+  width: 53%;
+}
+
+.text {
+  width: 205px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

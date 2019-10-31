@@ -4,46 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Personal Website</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>SCSS Project</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <nav class="nav">
-      <div class="logo">
-        <a href="https://robyafrizalpalmendha.github.io">
-          Roby Afrizal Palmendha
-        </a>
+    <div class="wrapper">
+      <div class="nav">
+        <div class="logo">
+          <a href="#">
+            <p>TEST PROJECT SCSS</p>
+          </a>
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Skill</li>
+          <li>Contact Us</li>
+        </ul>
       </div>
-      <div class="menu">
-        <div class="menu1">
-          <a href="index.html">Home</a>
-        </div>
-        <div class="menu1">
-          <a href="pages/about.html">About</a>
-        </div>
-        <div class="menu1">
-          <a href="pages/contact.html">Contact</a>
-        </div>
-      </div>
-    </nav>
+      <div class="header">
+        <h1>Roby Afrizal Palmendha</h1>
+    </div>
 
-    <main>
-      <div class="selfie">
+    <div class="tagline">
+        <p>
+          I'm Web Developer
+        </p>
+        <br />
+        <input
+          class="search-area"
+          type="text"
+          name="text"
+          placeholder="choose your project"
+          autocomplete="off"
+          />
+        </br/>
+        <input class="search-btn" type="submit" name="submit" value="Search" />
+      </div>
+      <div class="down">
         <img src="images/roby.png" alt="Roby Afrizal Palmendha" />
       </div>
-      <div class="pengenalan">
-        <h2>I' am Web Developer</h2>
-        <h3>Based on Jakarta</h3>
-        <div class="tombolService">
-          <a href="pages/service.html">Service</a>
-        </div>
-      </div>
-    </main>
-
-    <footer>
-      <div class="footer">
-        <p>copyright@2019 - built with <strong>passion</strong></p>
-      </div>
-    </footer>
+    </div>
   </body>
 </html>
